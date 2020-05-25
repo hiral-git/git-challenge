@@ -25,4 +25,4 @@ function respondUserAgent (req, res) {
 server.listen(PORT)
 console.log(`Server listening on port ${PORT}`)
 
-if (require.main !== module) module.exports = server
+if (require.main !== module) module.exports = server}
